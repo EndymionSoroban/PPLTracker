@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">PPLTracker</string>
+    <string name="app_name">PPL Tracker</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+
+    <!-- Exercise names array -->
+    <string-array name="exercise_names">
+        <item>Bench Press</item>
+        <item>Squat</item>
+        <item>Deadlift</item>
+        <item>Overhead Press</item>
+        <item>Barbell Row</item>
+        <item>Romanian Deadlift</item>
+        <item>Lat Pulldown</item>
+        <item>Cable Row</item>
+    </string-array>
+
+    <!-- Rounding options -->
+    <string-array name="weight_rounding_options">
+        <item>5 lbs</item>
+        <item>2.5 lbs</item>
+        <item>2.5 kg</item>
+        <item>1 kg</item>
+    </string-array>
+
+    <!-- Rest timer options -->
+    <string-array name="rest_timer_options">
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>5 minutes</item>
+    </string-array>
 </resources>
